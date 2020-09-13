@@ -18,6 +18,27 @@ _global_script_class_icons={
 config/name="Doors"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/fullscreen=true
+
 [rendering]
 
+quality/filters/anisotropic_filter_level=8
+quality/directional_shadow/size=8192
+quality/directional_shadow/size.mobile=8192
+quality/shadow_atlas/size=8192
+quality/shadow_atlas/size.mobile=8192
+quality/shadow_atlas/quadrant_0_subdiv=2
+quality/shadow_atlas/quadrant_1_subdiv=3
+quality/shadow_atlas/quadrant_2_subdiv=4
+quality/shadow_atlas/quadrant_3_subdiv=5
+quality/shadows/filter_mode=2
+quality/shadows/filter_mode.mobile=2
+quality/subsurface_scattering/quality=2
+quality/subsurface_scattering/scale=4
+quality/subsurface_scattering/follow_surface=true
+quality/voxel_cone_tracing/high_quality=true
+quality/reflections/atlas_size=4096
+quality/filters/msaa=3
 environment/default_environment="res://default_env.tres"
